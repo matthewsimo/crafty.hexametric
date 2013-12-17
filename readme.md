@@ -1,4 +1,3 @@
-
 ### crafty.hexametric.js
 
 A tool similar to crafty.isometric or crafty.diamondIso but for isometric hexagonal grid based layouts.
@@ -9,7 +8,7 @@ I'm sure there are loads of holes in this, but it's a start.. You can see a simp
 ![hexametric grid](http://f.cl.ly/items/0J1b2R3i2b3c05193F28/Screen%20Shot%202013-12-17%20at%209.02.03%20AM.png "hexametric grid")
 
 
-Once it's included in your project you have two things do.
+Once it's included in your project you have two things to do.
 
 - Init the grid
 - Place tiles
