@@ -141,10 +141,18 @@ Crafty.extend({
 
 
     px2pos: function (left, top) {
-      var x = (left - this._origin.x) / this._tile.r;
+
+      var x, y;
+
+      x = ( ( left / this._tile.width ) );
+      y = ( top / ( this._tile.height / 2 ) );
+
+      if(y%2)
+        x += 0.5;
+
       return {
-        x: ((top + x) / this._tile.height),
-        y: ((top - x) / this._tile.height)
+        x: x,
+        y: y 
       };
     },
 
